@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		620A635D173580E800CB757E /* ProgView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 620A635C173580E800CB757E /* ProgView.xib */; };
+		620A63651736787E00CB757E /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 620A63641736787E00CB757E /* Default-Landscape~ipad.png */; };
+		620A63671736788200CB757E /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 620A63661736788100CB757E /* Default-Landscape@2x~ipad.png */; };
+		620A636A17367ED900CB757E /* ProgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 620A636917367ED900CB757E /* ProgView.m */; };
+		6213559A1737DD58009C9E93 /* myFilter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 621355991737DD57009C9E93 /* myFilter.xib */; };
+		621355A21738110A009C9E93 /* myFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 621355A11738110A009C9E93 /* myFilter.m */; };
+		621355A5173863F7009C9E93 /* Filtre.m in Sources */ = {isa = PBXBuildFile; fileRef = 621355A4173863F6009C9E93 /* Filtre.m */; };
+		621355B31738720E009C9E93 /* FilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 621355B11738720E009C9E93 /* FilterView.m */; };
+		621355B41738720E009C9E93 /* FilterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 621355B21738720E009C9E93 /* FilterView.xib */; };
+		621355B617387309009C9E93 /* TvProgs.Filtres in Resources */ = {isa = PBXBuildFile; fileRef = 621355B517387309009C9E93 /* TvProgs.Filtres */; };
+		621355BF173A7ADA009C9E93 /* InfosView.m in Sources */ = {isa = PBXBuildFile; fileRef = 621355BD173A7AD9009C9E93 /* InfosView.m */; };
+		621355C0173A7ADA009C9E93 /* InfosView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 621355BE173A7AD9009C9E93 /* InfosView.xib */; };
+		621355C9173A82B2009C9E93 /* ChainesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 621355C7173A82B1009C9E93 /* ChainesView.m */; };
+		621355CA173A82B2009C9E93 /* ChainesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 621355C8173A82B2009C9E93 /* ChainesView.xib */; };
+		621355CD173A9201009C9E93 /* Chaine.m in Sources */ = {isa = PBXBuildFile; fileRef = 621355CC173A9200009C9E93 /* Chaine.m */; };
+		621692C317639408001B6258 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 621692B717639408001B6258 /* ioapi.c */; };
+		621692C417639408001B6258 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 621692B917639408001B6258 /* mztools.c */; };
+		621692C517639408001B6258 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 621692BB17639408001B6258 /* unzip.c */; };
+		621692C617639408001B6258 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 621692BD17639408001B6258 /* zip.c */; };
+		621692C717639408001B6258 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 621692C017639408001B6258 /* SSZipArchive.m */; };
+		621692C9176394F6001B6258 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 621692C8176394F6001B6258 /* libz.dylib */; };
+		621692CF17639A19001B6258 /* XMLToObjectParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 621692CE17639A19001B6258 /* XMLToObjectParser.m */; };
+		621DAF251736B12100734C0C /* icones in Resources */ = {isa = PBXBuildFile; fileRef = 621DAF241736B12100734C0C /* icones */; };
+		621DAF2817370D1100734C0C /* Prog.m in Sources */ = {isa = PBXBuildFile; fileRef = 621DAF2717370D1100734C0C /* Prog.m */; };
+		621DAF2C173717D100734C0C /* Complet.Progs in Resources */ = {isa = PBXBuildFile; fileRef = 621DAF2B173717D100734C0C /* Complet.Progs */; };
+		628853101732AA2900E70772 /* myCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6288530F1732AA2900E70772 /* myCell.m */; };
+		628853121732AB1300E70772 /* myCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 628853111732AB1300E70772 /* myCell.xib */; };
+		628855D01732CA2300E70772 /* logos in Resources */ = {isa = PBXBuildFile; fileRef = 628855CF1732CA2300E70772 /* logos */; };
+		628855D21732CAE000E70772 /* Potato72.png in Resources */ = {isa = PBXBuildFile; fileRef = 628855D11732CAE000E70772 /* Potato72.png */; };
+		628855D41732CAE400E70772 /* Potato144.png in Resources */ = {isa = PBXBuildFile; fileRef = 628855D31732CAE300E70772 /* Potato144.png */; };
+		6289C671186F127B00367731 /* ChainesChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6289C66F186F127B00367731 /* ChainesChooser.m */; };
+		6289C676186F32E000367731 /* myChaine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6289C675186F32E000367731 /* myChaine.m */; };
+		6289C678186F331200367731 /* myChaine.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6289C677186F331200367731 /* myChaine.xib */; };
+		6289C67A186F40B100367731 /* ChainesChooser.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6289C679186F40B100367731 /* ChainesChooser.xib */; };
+		6289C681186F42FF00367731 /* Aview.m in Sources */ = {isa = PBXBuildFile; fileRef = 6289C67F186F42FF00367731 /* Aview.m */; };
+		6289C682186F42FF00367731 /* Aview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6289C680186F42FF00367731 /* Aview.xib */; };
+		62D0EB98176E1A600054B71F /* Patate144.png in Resources */ = {isa = PBXBuildFile; fileRef = 62D0EB97176E1A600054B71F /* Patate144.png */; };
+		62D0EB9A176E1A690054B71F /* Patate72.png in Resources */ = {isa = PBXBuildFile; fileRef = 62D0EB99176E1A690054B71F /* Patate72.png */; };
+		62D36A721731774900013A9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D36A711731774900013A9D /* UIKit.framework */; };
+		62D36A741731774900013A9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D36A731731774900013A9D /* Foundation.framework */; };
+		62D36A761731774900013A9D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D36A751731774900013A9D /* CoreGraphics.framework */; };
+		62D36A7C1731774900013A9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62D36A7A1731774900013A9D /* InfoPlist.strings */; };
+		62D36A7E1731774900013A9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D36A7D1731774900013A9D /* main.m */; };
+		62D36A821731774900013A9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D36A811731774900013A9D /* AppDelegate.m */; };
+		62D36A841731774900013A9D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 62D36A831731774900013A9D /* Default.png */; };
+		62D36A861731774900013A9D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62D36A851731774900013A9D /* Default@2x.png */; };
+		62D36A881731774900013A9D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62D36A871731774900013A9D /* Default-568h@2x.png */; };
+		62D36AA117317BD300013A9D /* MasterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D36A9F17317BD300013A9D /* MasterView.m */; };
+		62D36AA217317BD300013A9D /* MasterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62D36AA017317BD300013A9D /* MasterView.xib */; };
+		62D36AAB17317D7700013A9D /* DetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D36AA917317D7700013A9D /* DetailView.m */; };
+		62D36AAC17317D7700013A9D /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62D36AAA17317D7700013A9D /* DetailView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		620A635C173580E800CB757E /* ProgView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgView.xib; sourceTree = "<group>"; };
+		620A63641736787E00CB757E /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad.png"; path = "../Icones/Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		620A63661736788100CB757E /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@2x~ipad.png"; path = "../Icones/Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		620A636817367ED800CB757E /* ProgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgView.h; sourceTree = "<group>"; };
+		620A636917367ED900CB757E /* ProgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgView.m; sourceTree = "<group>"; };
+		621355991737DD57009C9E93 /* myFilter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myFilter.xib; sourceTree = "<group>"; };
+		621355A01738110A009C9E93 /* myFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myFilter.h; sourceTree = "<group>"; };
+		621355A11738110A009C9E93 /* myFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myFilter.m; sourceTree = "<group>"; };
+		621355A3173863F6009C9E93 /* Filtre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filtre.h; path = "../../TV Progs/TV Progs/Filtre.h"; sourceTree = "<group>"; };
+		621355A4173863F6009C9E93 /* Filtre.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filtre.m; path = "../../TV Progs/TV Progs/Filtre.m"; sourceTree = "<group>"; };
+		621355B01738720D009C9E93 /* FilterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterView.h; sourceTree = "<group>"; };
+		621355B11738720E009C9E93 /* FilterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterView.m; sourceTree = "<group>"; };
+		621355B21738720E009C9E93 /* FilterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterView.xib; sourceTree = "<group>"; };
+		621355B517387309009C9E93 /* TvProgs.Filtres */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = TvProgs.Filtres; path = data/TvProgs.Filtres; sourceTree = "<group>"; };
+		621355BC173A7AD8009C9E93 /* InfosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfosView.h; sourceTree = "<group>"; };
+		621355BD173A7AD9009C9E93 /* InfosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfosView.m; sourceTree = "<group>"; };
+		621355BE173A7AD9009C9E93 /* InfosView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfosView.xib; sourceTree = "<group>"; };
+		621355C6173A82B1009C9E93 /* ChainesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChainesView.h; sourceTree = "<group>"; };
+		621355C7173A82B1009C9E93 /* ChainesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChainesView.m; sourceTree = "<group>"; };
+		621355C8173A82B2009C9E93 /* ChainesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChainesView.xib; sourceTree = "<group>"; };
+		621355CB173A9200009C9E93 /* Chaine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chaine.h; sourceTree = "<group>"; };
+		621355CC173A9200009C9E93 /* Chaine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chaine.m; sourceTree = "<group>"; };
+		621692B617639408001B6258 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		621692B717639408001B6258 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		621692B817639408001B6258 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		621692B917639408001B6258 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		621692BA17639408001B6258 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		621692BB17639408001B6258 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		621692BC17639408001B6258 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		621692BD17639408001B6258 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		621692BE17639408001B6258 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		621692BF17639408001B6258 /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		621692C017639408001B6258 /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		621692C8176394F6001B6258 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		621692CD17639A19001B6258 /* XMLToObjectParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLToObjectParser.h; sourceTree = "<group>"; };
+		621692CE17639A19001B6258 /* XMLToObjectParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLToObjectParser.m; sourceTree = "<group>"; };
+		621DAF241736B12100734C0C /* icones */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icones; sourceTree = "<group>"; };
+		621DAF2617370D1100734C0C /* Prog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prog.h; path = "../../TV Progs/TV Progs/Prog.h"; sourceTree = "<group>"; };
+		621DAF2717370D1100734C0C /* Prog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Prog.m; path = "../../TV Progs/TV Progs/Prog.m"; sourceTree = "<group>"; };
+		621DAF2B173717D100734C0C /* Complet.Progs */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = Complet.Progs; path = data/Complet.Progs; sourceTree = "<group>"; };
+		6288530E1732AA2900E70772 /* myCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myCell.h; sourceTree = "<group>"; };
+		6288530F1732AA2900E70772 /* myCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myCell.m; sourceTree = "<group>"; };
+		628853111732AB1300E70772 /* myCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myCell.xib; sourceTree = "<group>"; };
+		628855CF1732CA2300E70772 /* logos */ = {isa = PBXFileReference; lastKnownFileType = folder; path = logos; sourceTree = "<group>"; };
+		628855D11732CAE000E70772 /* Potato72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Potato72.png; path = ../Icones/Potato72.png; sourceTree = "<group>"; };
+		628855D31732CAE300E70772 /* Potato144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Potato144.png; path = ../Icones/Potato144.png; sourceTree = "<group>"; };
+		6289C66E186F127B00367731 /* ChainesChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChainesChooser.h; sourceTree = "<group>"; };
+		6289C66F186F127B00367731 /* ChainesChooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChainesChooser.m; sourceTree = "<group>"; };
+		6289C674186F32E000367731 /* myChaine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myChaine.h; sourceTree = "<group>"; };
+		6289C675186F32E000367731 /* myChaine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myChaine.m; sourceTree = "<group>"; };
+		6289C677186F331200367731 /* myChaine.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myChaine.xib; sourceTree = "<group>"; };
+		6289C679186F40B100367731 /* ChainesChooser.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChainesChooser.xib; sourceTree = "<group>"; };
+		6289C67E186F42FF00367731 /* Aview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aview.h; sourceTree = "<group>"; };
+		6289C67F186F42FF00367731 /* Aview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aview.m; sourceTree = "<group>"; };
+		6289C680186F42FF00367731 /* Aview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Aview.xib; sourceTree = "<group>"; };
+		62D0EB97176E1A600054B71F /* Patate144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Patate144.png; path = Icones/Patate144.png; sourceTree = "<group>"; };
+		62D0EB99176E1A690054B71F /* Patate72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Patate72.png; path = Icones/Patate72.png; sourceTree = "<group>"; };
+		62D36A6E1731774900013A9D /* CanapTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanapTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62D36A711731774900013A9D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		62D36A731731774900013A9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		62D36A751731774900013A9D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		62D36A791731774900013A9D /* CanapTV-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CanapTV-Info.plist"; sourceTree = "<group>"; };
+		62D36A7B1731774900013A9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		62D36A7D1731774900013A9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62D36A7F1731774900013A9D /* CanapTV-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CanapTV-Prefix.pch"; sourceTree = "<group>"; };
+		62D36A801731774900013A9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		62D36A811731774900013A9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		62D36A831731774900013A9D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		62D36A851731774900013A9D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		62D36A871731774900013A9D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		62D36A9E17317BD300013A9D /* MasterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterView.h; sourceTree = "<group>"; };
+		62D36A9F17317BD300013A9D /* MasterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterView.m; sourceTree = "<group>"; };
+		62D36AA017317BD300013A9D /* MasterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterView.xib; sourceTree = "<group>"; };
+		62D36AA817317D7700013A9D /* DetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailView.h; sourceTree = "<group>"; };
+		62D36AA917317D7700013A9D /* DetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailView.m; sourceTree = "<group>"; };
+		62D36AAA17317D7700013A9D /* DetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62D36A6B1731774900013A9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621692C9176394F6001B6258 /* libz.dylib in Frameworks */,
+				62D36A721731774900013A9D /* UIKit.framework in Frameworks */,
+				62D36A741731774900013A9D /* Foundation.framework in Frameworks */,
+				62D36A761731774900013A9D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		621692B217639408001B6258 /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				621692B517639408001B6258 /* minizip */,
+				621692BF17639408001B6258 /* SSZipArchive.h */,
+				621692C017639408001B6258 /* SSZipArchive.m */,
+			);
+			path = SSZipArchive;
+			sourceTree = "<group>";
+		};
+		621692B517639408001B6258 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				621692B617639408001B6258 /* crypt.h */,
+				621692B717639408001B6258 /* ioapi.c */,
+				621692B817639408001B6258 /* ioapi.h */,
+				621692B917639408001B6258 /* mztools.c */,
+				621692BA17639408001B6258 /* mztools.h */,
+				621692BB17639408001B6258 /* unzip.c */,
+				621692BC17639408001B6258 /* unzip.h */,
+				621692BD17639408001B6258 /* zip.c */,
+				621692BE17639408001B6258 /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		62D36A651731774900013A9D = {
+			isa = PBXGroup;
+			children = (
+				62D0EB99176E1A690054B71F /* Patate72.png */,
+				62D0EB97176E1A600054B71F /* Patate144.png */,
+				62D36A771731774900013A9D /* CanapTV */,
+				62D36A701731774900013A9D /* Frameworks */,
+				62D36A6F1731774900013A9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62D36A6F1731774900013A9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62D36A6E1731774900013A9D /* CanapTV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62D36A701731774900013A9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				621692C8176394F6001B6258 /* libz.dylib */,
+				62D36A711731774900013A9D /* UIKit.framework */,
+				62D36A731731774900013A9D /* Foundation.framework */,
+				62D36A751731774900013A9D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62D36A771731774900013A9D /* CanapTV */ = {
+			isa = PBXGroup;
+			children = (
+				621692CD17639A19001B6258 /* XMLToObjectParser.h */,
+				621692CE17639A19001B6258 /* XMLToObjectParser.m */,
+				621692B217639408001B6258 /* SSZipArchive */,
+				621DAF2617370D1100734C0C /* Prog.h */,
+				621DAF2717370D1100734C0C /* Prog.m */,
+				621355A3173863F6009C9E93 /* Filtre.h */,
+				621355A4173863F6009C9E93 /* Filtre.m */,
+				621355CB173A9200009C9E93 /* Chaine.h */,
+				621355CC173A9200009C9E93 /* Chaine.m */,
+				62D36A801731774900013A9D /* AppDelegate.h */,
+				62D36A811731774900013A9D /* AppDelegate.m */,
+				62D36A9E17317BD300013A9D /* MasterView.h */,
+				62D36A9F17317BD300013A9D /* MasterView.m */,
+				62D36AA817317D7700013A9D /* DetailView.h */,
+				62D36AA917317D7700013A9D /* DetailView.m */,
+				6288530E1732AA2900E70772 /* myCell.h */,
+				6288530F1732AA2900E70772 /* myCell.m */,
+				620A636817367ED800CB757E /* ProgView.h */,
+				620A636917367ED900CB757E /* ProgView.m */,
+				621355A01738110A009C9E93 /* myFilter.h */,
+				621355A11738110A009C9E93 /* myFilter.m */,
+				621355B01738720D009C9E93 /* FilterView.h */,
+				621355B11738720E009C9E93 /* FilterView.m */,
+				621355BC173A7AD8009C9E93 /* InfosView.h */,
+				621355BD173A7AD9009C9E93 /* InfosView.m */,
+				621355C6173A82B1009C9E93 /* ChainesView.h */,
+				621355C7173A82B1009C9E93 /* ChainesView.m */,
+				6289C66E186F127B00367731 /* ChainesChooser.h */,
+				6289C66F186F127B00367731 /* ChainesChooser.m */,
+				6289C674186F32E000367731 /* myChaine.h */,
+				6289C675186F32E000367731 /* myChaine.m */,
+				6289C679186F40B100367731 /* ChainesChooser.xib */,
+				6289C67E186F42FF00367731 /* Aview.h */,
+				6289C67F186F42FF00367731 /* Aview.m */,
+				6289C680186F42FF00367731 /* Aview.xib */,
+				621355C8173A82B2009C9E93 /* ChainesView.xib */,
+				621355BE173A7AD9009C9E93 /* InfosView.xib */,
+				62D36AA017317BD300013A9D /* MasterView.xib */,
+				62D36AAA17317D7700013A9D /* DetailView.xib */,
+				621355B21738720E009C9E93 /* FilterView.xib */,
+				620A635C173580E800CB757E /* ProgView.xib */,
+				621355991737DD57009C9E93 /* myFilter.xib */,
+				628853111732AB1300E70772 /* myCell.xib */,
+				6289C677186F331200367731 /* myChaine.xib */,
+				62D36A781731774900013A9D /* Supporting Files */,
+			);
+			path = CanapTV;
+			sourceTree = "<group>";
+		};
+		62D36A781731774900013A9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				621DAF241736B12100734C0C /* icones */,
+				628855CF1732CA2300E70772 /* logos */,
+				628855D31732CAE300E70772 /* Potato144.png */,
+				628855D11732CAE000E70772 /* Potato72.png */,
+				620A63661736788100CB757E /* Default-Landscape@2x~ipad.png */,
+				620A63641736787E00CB757E /* Default-Landscape~ipad.png */,
+				62D36A791731774900013A9D /* CanapTV-Info.plist */,
+				621355B517387309009C9E93 /* TvProgs.Filtres */,
+				621DAF2B173717D100734C0C /* Complet.Progs */,
+				62D36A7A1731774900013A9D /* InfoPlist.strings */,
+				62D36A7D1731774900013A9D /* main.m */,
+				62D36A7F1731774900013A9D /* CanapTV-Prefix.pch */,
+				62D36A831731774900013A9D /* Default.png */,
+				62D36A851731774900013A9D /* Default@2x.png */,
+				62D36A871731774900013A9D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62D36A6D1731774900013A9D /* CanapTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62D36A8B1731774900013A9D /* Build configuration list for PBXNativeTarget "CanapTV" */;
+			buildPhases = (
+				62D36A6A1731774900013A9D /* Sources */,
+				62D36A6B1731774900013A9D /* Frameworks */,
+				62D36A6C1731774900013A9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CanapTV;
+			productName = CanapTV;
+			productReference = 62D36A6E1731774900013A9D /* CanapTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62D36A661731774900013A9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Home;
+			};
+			buildConfigurationList = 62D36A691731774900013A9D /* Build configuration list for PBXProject "CanapTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 62D36A651731774900013A9D;
+			productRefGroup = 62D36A6F1731774900013A9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62D36A6D1731774900013A9D /* CanapTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62D36A6C1731774900013A9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D36A7C1731774900013A9D /* InfoPlist.strings in Resources */,
+				62D36A841731774900013A9D /* Default.png in Resources */,
+				62D36A861731774900013A9D /* Default@2x.png in Resources */,
+				6289C678186F331200367731 /* myChaine.xib in Resources */,
+				62D36A881731774900013A9D /* Default-568h@2x.png in Resources */,
+				62D36AA217317BD300013A9D /* MasterView.xib in Resources */,
+				6289C682186F42FF00367731 /* Aview.xib in Resources */,
+				62D36AAC17317D7700013A9D /* DetailView.xib in Resources */,
+				628853121732AB1300E70772 /* myCell.xib in Resources */,
+				628855D01732CA2300E70772 /* logos in Resources */,
+				6289C67A186F40B100367731 /* ChainesChooser.xib in Resources */,
+				628855D21732CAE000E70772 /* Potato72.png in Resources */,
+				628855D41732CAE400E70772 /* Potato144.png in Resources */,
+				620A635D173580E800CB757E /* ProgView.xib in Resources */,
+				620A63651736787E00CB757E /* Default-Landscape~ipad.png in Resources */,
+				620A63671736788200CB757E /* Default-Landscape@2x~ipad.png in Resources */,
+				621DAF251736B12100734C0C /* icones in Resources */,
+				621DAF2C173717D100734C0C /* Complet.Progs in Resources */,
+				6213559A1737DD58009C9E93 /* myFilter.xib in Resources */,
+				621355B41738720E009C9E93 /* FilterView.xib in Resources */,
+				621355B617387309009C9E93 /* TvProgs.Filtres in Resources */,
+				621355C0173A7ADA009C9E93 /* InfosView.xib in Resources */,
+				621355CA173A82B2009C9E93 /* ChainesView.xib in Resources */,
+				62D0EB98176E1A600054B71F /* Patate144.png in Resources */,
+				62D0EB9A176E1A690054B71F /* Patate72.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62D36A6A1731774900013A9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D36A7E1731774900013A9D /* main.m in Sources */,
+				62D36A821731774900013A9D /* AppDelegate.m in Sources */,
+				62D36AA117317BD300013A9D /* MasterView.m in Sources */,
+				62D36AAB17317D7700013A9D /* DetailView.m in Sources */,
+				628853101732AA2900E70772 /* myCell.m in Sources */,
+				620A636A17367ED900CB757E /* ProgView.m in Sources */,
+				621DAF2817370D1100734C0C /* Prog.m in Sources */,
+				621355A21738110A009C9E93 /* myFilter.m in Sources */,
+				621355A5173863F7009C9E93 /* Filtre.m in Sources */,
+				621355B31738720E009C9E93 /* FilterView.m in Sources */,
+				621355BF173A7ADA009C9E93 /* InfosView.m in Sources */,
+				621355C9173A82B2009C9E93 /* ChainesView.m in Sources */,
+				6289C681186F42FF00367731 /* Aview.m in Sources */,
+				6289C671186F127B00367731 /* ChainesChooser.m in Sources */,
+				621355CD173A9201009C9E93 /* Chaine.m in Sources */,
+				621692C317639408001B6258 /* ioapi.c in Sources */,
+				621692C417639408001B6258 /* mztools.c in Sources */,
+				621692C517639408001B6258 /* unzip.c in Sources */,
+				621692C617639408001B6258 /* zip.c in Sources */,
+				6289C676186F32E000367731 /* myChaine.m in Sources */,
+				621692C717639408001B6258 /* SSZipArchive.m in Sources */,
+				621692CF17639A19001B6258 /* XMLToObjectParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		62D36A7A1731774900013A9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62D36A7B1731774900013A9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62D36A891731774900013A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		62D36A8A1731774900013A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62D36A8C1731774900013A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CanapTV/CanapTV-Prefix.pch";
+				INFOPLIST_FILE = "CanapTV/CanapTV-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		62D36A8D1731774900013A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CanapTV/CanapTV-Prefix.pch";
+				INFOPLIST_FILE = "CanapTV/CanapTV-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62D36A691731774900013A9D /* Build configuration list for PBXProject "CanapTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D36A891731774900013A9D /* Debug */,
+				62D36A8A1731774900013A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62D36A8B1731774900013A9D /* Build configuration list for PBXNativeTarget "CanapTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D36A8C1731774900013A9D /* Debug */,
+				62D36A8D1731774900013A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62D36A661731774900013A9D /* Project object */;
+}

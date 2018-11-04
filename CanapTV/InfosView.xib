@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4457.9" systemVersion="12E55" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3682.9"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InfosView">
+            <connections>
+                <outlet property="debut" destination="48" id="100"/>
+                <outlet property="fin" destination="73" id="101"/>
+                <outlet property="nbchaines" destination="104" id="118"/>
+                <outlet property="nombre" destination="77" id="102"/>
+                <outlet property="view" destination="2" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="2">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="768"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Début des programmes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4">
+                    <rect key="frame" x="50" y="86" width="221" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="31"/>
+                        <constraint firstAttribute="width" constant="221" id="34"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Fin des programmes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7">
+                    <rect key="frame" x="60" y="153" width="201" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="29"/>
+                        <constraint firstAttribute="width" constant="201" id="37"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Nombre de programmes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="10">
+                    <rect key="frame" x="44" y="293" width="233" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="27"/>
+                        <constraint firstAttribute="width" constant="233" id="38"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="48">
+                    <rect key="frame" x="20" y="115" width="280" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" name="selectedMenuItemColor" catalog="System" colorSpace="catalog"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="73">
+                    <rect key="frame" x="20" y="189" width="280" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" name="selectedMenuItemColor" catalog="System" colorSpace="catalog"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="77">
+                    <rect key="frame" x="20" y="328" width="280" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" name="selectedMenuItemColor" catalog="System" colorSpace="catalog"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Nombre de chaines" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="103">
+                    <rect key="frame" x="44" y="453" width="233" height="24"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="104">
+                    <rect key="frame" x="20" y="491" width="280" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" name="selectedMenuItemColor" catalog="System" colorSpace="catalog"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="119">
+                    <rect key="frame" x="20" y="630" width="280" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="AX7-zd-Goh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                    <state key="normal" title="Recharger">
+                        <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="recharger:" destination="-1" eventType="touchUpInside" id="137"/>
+                    </connections>
+                </button>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="127">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <items>
+                        <navigationItem title="Informations" id="128"/>
+                    </items>
+                </navigationBar>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="10" firstAttribute="top" secondItem="2" secondAttribute="top" constant="293" id="45"/>
+                <constraint firstItem="48" firstAttribute="top" secondItem="4" secondAttribute="bottom" constant="8" symbolic="YES" id="49"/>
+                <constraint firstItem="48" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" symbolic="YES" id="66"/>
+                <constraint firstItem="48" firstAttribute="centerX" secondItem="4" secondAttribute="centerX" id="70"/>
+                <constraint firstAttribute="trailing" secondItem="48" secondAttribute="trailing" constant="20" symbolic="YES" id="71"/>
+                <constraint firstAttribute="trailing" secondItem="77" secondAttribute="trailing" constant="20" symbolic="YES" id="81"/>
+                <constraint firstItem="77" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" symbolic="YES" id="82"/>
+                <constraint firstItem="77" firstAttribute="centerX" secondItem="10" secondAttribute="centerX" id="83"/>
+                <constraint firstItem="77" firstAttribute="top" secondItem="2" secondAttribute="top" constant="328" id="84"/>
+                <constraint firstItem="73" firstAttribute="centerX" secondItem="7" secondAttribute="centerX" id="85"/>
+                <constraint firstItem="73" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" symbolic="YES" id="87"/>
+                <constraint firstAttribute="trailing" secondItem="73" secondAttribute="trailing" constant="20" symbolic="YES" id="88"/>
+                <constraint firstAttribute="trailing" secondItem="104" secondAttribute="trailing" constant="20" symbolic="YES" id="112"/>
+                <constraint firstItem="103" firstAttribute="leading" secondItem="10" secondAttribute="leading" id="114"/>
+                <constraint firstItem="104" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" symbolic="YES" id="115"/>
+                <constraint firstItem="103" firstAttribute="trailing" secondItem="10" secondAttribute="trailing" id="116"/>
+                <constraint firstItem="119" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" symbolic="YES" id="120"/>
+                <constraint firstAttribute="trailing" secondItem="119" secondAttribute="trailing" constant="20" symbolic="YES" id="122"/>
+                <constraint firstAttribute="bottom" secondItem="104" secondAttribute="bottom" constant="256" id="125"/>
+                <constraint firstAttribute="bottom" secondItem="103" secondAttribute="bottom" constant="291" id="126"/>
+                <constraint firstItem="127" firstAttribute="leading" secondItem="2" secondAttribute="leading" id="129"/>
+                <constraint firstItem="127" firstAttribute="trailing" secondItem="2" secondAttribute="trailing" id="130"/>
+                <constraint firstItem="127" firstAttribute="top" secondItem="2" secondAttribute="top" id="131"/>
+                <constraint firstItem="4" firstAttribute="top" secondItem="2" secondAttribute="top" constant="86" id="133"/>
+                <constraint firstItem="7" firstAttribute="top" secondItem="2" secondAttribute="top" constant="153" id="135"/>
+                <constraint firstItem="73" firstAttribute="top" secondItem="2" secondAttribute="top" constant="189" id="136"/>
+                <constraint firstAttribute="bottom" secondItem="119" secondAttribute="bottom" constant="117" id="3Om-s3-0m4"/>
+            </constraints>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <splitViewMasterSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>

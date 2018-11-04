@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="4471.1" systemVersion="12E55" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3697.3"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MasterView">
+            <connections>
+                <outlet property="categorie" destination="21" id="757"/>
+                <outlet property="heure" destination="896" id="913"/>
+                <outlet property="jour" destination="884" id="912"/>
+                <outlet property="motCle" destination="7" id="41"/>
+                <outlet property="resume" destination="18" id="44"/>
+                <outlet property="source" destination="870" id="911"/>
+                <outlet property="sousTitre" destination="15" id="43"/>
+                <outlet property="titre" destination="12" id="42"/>
+                <outlet property="view" destination="2" id="845"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="2">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="768"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Trouver" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4">
+                    <rect key="frame" x="20" y="146" width="74" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="FJa-H3-4QC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Catégorie" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="90">
+                    <rect key="frame" x="20" y="371" width="95" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="Jf9-c4-yzh"/>
+                        <constraint firstAttribute="width" constant="95" id="RMl-tP-qY4"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Quand" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="104">
+                    <rect key="frame" x="20" y="520" width="75" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="A0k-4e-Oej"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Source" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="924">
+                    <rect key="frame" x="20" y="69" width="74" height="24"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="74" id="bte-dN-qca"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Titre" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="68">
+                    <rect key="frame" x="51" y="181" width="73" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="XoG-f9-0QZ"/>
+                        <constraint firstAttribute="width" constant="73" id="jEI-1I-PkT"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="SousTitre" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="75">
+                    <rect key="frame" x="136" y="181" width="73" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Résumé" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="79">
+                    <rect key="frame" x="241" y="181" width="70" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="llF-2N-btL"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="7">
+                    <rect key="frame" x="136" y="143" width="164" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocorrectionType="no" returnKeyType="search" enablesReturnKeyAutomatically="YES"/>
+                    <connections>
+                        <action selector="refresh:" destination="-1" eventType="editingDidEnd" id="1130"/>
+                    </connections>
+                </textField>
+                <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="12">
+                    <rect key="frame" x="42" y="206" width="51" height="31"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="onTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <action selector="refresh:" destination="-1" eventType="valueChanged" id="1127"/>
+                    </connections>
+                </switch>
+                <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="15">
+                    <rect key="frame" x="145" y="207" width="51" height="31"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="onTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <action selector="refresh:" destination="-1" eventType="valueChanged" id="1128"/>
+                    </connections>
+                </switch>
+                <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="18">
+                    <rect key="frame" x="244" y="207" width="51" height="31"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="onTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <action selector="refresh:" destination="-1" eventType="valueChanged" id="1129"/>
+                    </connections>
+                </switch>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="21">
+                    <rect key="frame" x="117" y="274" width="191" height="216"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="191" id="ZOy-dn-xMn"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="584"/>
+                        <outlet property="delegate" destination="-1" id="585"/>
+                    </connections>
+                </pickerView>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="870">
+                    <rect key="frame" x="136" y="67" width="164" height="29"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <segments>
+                        <segment title="Cable" width="81.5"/>
+                        <segment title="TNT" width="81.5"/>
+                    </segments>
+                    <connections>
+                        <action selector="refresh:" destination="-1" eventType="valueChanged" id="1126"/>
+                    </connections>
+                </segmentedControl>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="884">
+                    <rect key="frame" x="20" y="555" width="347" height="29"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <segments>
+                        <segment title="Tous" width="90"/>
+                        <segment title="Aujourd'hui" width="100"/>
+                        <segment title="Demain" width="90"/>
+                    </segments>
+                    <connections>
+                        <action selector="selectQuand:" destination="-1" eventType="valueChanged" id="914"/>
+                    </connections>
+                </segmentedControl>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="896">
+                    <rect key="frame" x="20" y="597" width="443" height="29"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="443" id="ALe-hz-j3L"/>
+                    </constraints>
+                    <segments>
+                        <segment title="Tous" width="56"/>
+                        <segment title="En cours" width="56"/>
+                        <segment title="A venir" width="56"/>
+                        <segment title="Soir" width="56"/>
+                        <segment title="Nuit" width="56"/>
+                    </segments>
+                    <connections>
+                        <action selector="selectQuand:" destination="-1" eventType="valueChanged" id="915"/>
+                    </connections>
+                </segmentedControl>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1251">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <items>
+                        <navigationItem title="Sélection manuelle" id="1252"/>
+                    </items>
+                </navigationBar>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="75" firstAttribute="top" secondItem="7" secondAttribute="bottom" constant="8" symbolic="YES" id="2Ss-dG-0zf"/>
+                <constraint firstItem="12" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="42" id="2Y9-8E-8Ce"/>
+                <constraint firstItem="884" firstAttribute="leading" secondItem="896" secondAttribute="leading" id="5xy-bu-5LM"/>
+                <constraint firstItem="18" firstAttribute="leading" secondItem="15" secondAttribute="trailing" constant="50" id="6LG-sG-Fg8"/>
+                <constraint firstItem="7" firstAttribute="leading" secondItem="4" secondAttribute="trailing" constant="42" id="7Vj-vo-m3Q"/>
+                <constraint firstItem="1251" firstAttribute="leading" secondItem="2" secondAttribute="leading" id="BuU-sQ-wuz"/>
+                <constraint firstItem="884" firstAttribute="top" secondItem="104" secondAttribute="bottom" constant="14" id="CVi-oX-duS"/>
+                <constraint firstAttribute="trailing" secondItem="870" secondAttribute="trailing" constant="20" symbolic="YES" id="CqH-Zc-ZpQ"/>
+                <constraint firstItem="4" firstAttribute="centerX" secondItem="104" secondAttribute="centerX" id="F1J-YM-qRN"/>
+                <constraint firstAttribute="trailing" secondItem="7" secondAttribute="trailing" constant="20" id="Fuw-8Z-44Z"/>
+                <constraint firstItem="870" firstAttribute="top" secondItem="1251" secondAttribute="bottom" constant="23" id="J4T-mu-ZIH"/>
+                <constraint firstItem="924" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" symbolic="YES" id="Mua-xm-jvr"/>
+                <constraint firstItem="79" firstAttribute="top" secondItem="7" secondAttribute="bottom" constant="8" symbolic="YES" id="NNI-dw-lTx"/>
+                <constraint firstAttribute="trailing" secondItem="79" secondAttribute="trailing" constant="9" id="NTD-8j-hxK"/>
+                <constraint firstItem="104" firstAttribute="leading" secondItem="90" secondAttribute="leading" id="SCJ-oe-yZA"/>
+                <constraint firstItem="21" firstAttribute="top" secondItem="15" secondAttribute="bottom" constant="36" id="SNe-Vv-V6M"/>
+                <constraint firstAttribute="trailing" secondItem="884" secondAttribute="trailing" constant="-47" id="SmU-QZ-kzW"/>
+                <constraint firstItem="924" firstAttribute="trailing" secondItem="4" secondAttribute="trailing" id="WzP-ue-OC4"/>
+                <constraint firstItem="896" firstAttribute="top" secondItem="884" secondAttribute="bottom" constant="14" id="X1s-8g-cQJ"/>
+                <constraint firstItem="870" firstAttribute="centerY" secondItem="924" secondAttribute="centerY" id="XYf-us-nhL"/>
+                <constraint firstItem="924" firstAttribute="leading" secondItem="4" secondAttribute="leading" id="Y27-hs-Z5M"/>
+                <constraint firstItem="15" firstAttribute="leading" secondItem="12" secondAttribute="trailing" constant="54" id="Zkm-gl-v5C"/>
+                <constraint firstItem="75" firstAttribute="leading" secondItem="68" secondAttribute="trailing" constant="12" id="bgg-s9-g7a"/>
+                <constraint firstItem="4" firstAttribute="leading" secondItem="90" secondAttribute="leading" id="btz-Nv-pbT"/>
+                <constraint firstItem="68" firstAttribute="top" secondItem="4" secondAttribute="bottom" constant="14" id="d5L-Ru-0hD"/>
+                <constraint firstItem="1251" firstAttribute="top" secondItem="2" secondAttribute="top" id="e6T-Bi-95Q"/>
+                <constraint firstItem="15" firstAttribute="top" secondItem="75" secondAttribute="bottom" constant="5" id="eaA-Ra-oZT"/>
+                <constraint firstItem="12" firstAttribute="top" secondItem="68" secondAttribute="bottom" constant="4" id="gN6-Q2-IMP"/>
+                <constraint firstItem="75" firstAttribute="baseline" secondItem="79" secondAttribute="baseline" id="hWa-BF-8eB"/>
+                <constraint firstItem="68" firstAttribute="top" secondItem="7" secondAttribute="bottom" constant="8" symbolic="YES" id="kxk-Hb-uKZ"/>
+                <constraint firstItem="68" firstAttribute="baseline" secondItem="75" secondAttribute="baseline" id="nMo-3E-ffO"/>
+                <constraint firstItem="1251" firstAttribute="trailing" secondItem="2" secondAttribute="trailing" id="nSc-3V-0Ov"/>
+                <constraint firstItem="884" firstAttribute="leading" secondItem="104" secondAttribute="leading" id="p8L-HO-jz7"/>
+                <constraint firstItem="7" firstAttribute="top" secondItem="870" secondAttribute="bottom" constant="48" id="rIR-Rd-xvq"/>
+                <constraint firstItem="7" firstAttribute="trailing" secondItem="21" secondAttribute="trailing" constant="-8" id="sbZ-Q8-E3i"/>
+                <constraint firstItem="15" firstAttribute="top" secondItem="18" secondAttribute="top" id="u7B-4J-FDz"/>
+                <constraint firstItem="68" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="51" id="vaH-RQ-ZbO"/>
+                <constraint firstAttribute="bottom" secondItem="90" secondAttribute="bottom" constant="376" id="w2U-RE-gaE"/>
+                <constraint firstItem="884" firstAttribute="top" secondItem="21" secondAttribute="bottom" constant="65" id="xI2-lM-keQ"/>
+                <constraint firstItem="79" firstAttribute="leading" secondItem="75" secondAttribute="trailing" constant="32" id="xLf-ti-zLo"/>
+            </constraints>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <splitViewMasterSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>
